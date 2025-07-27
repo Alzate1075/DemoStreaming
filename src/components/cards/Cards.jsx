@@ -15,11 +15,13 @@ export default function Cards() {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-6 gap-6 p-4">
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-6 p-4">
       {movies &&
         movies.map((movie, index) => (
-          <div key={index}>
-            <h2>{movie.title}</h2>
+          <div
+            key={index}
+            className="flex flex-col items-center bg-white rounded shadow p-2 h-full"
+          >
             <img
               src={movie.images?.["Poster Art"]?.url || "/Movies2.png"}
               alt={movie.title}
@@ -27,8 +29,11 @@ export default function Cards() {
                 e.target.onerror = null;
                 e.target.src = "/Movies2.png";
               }}
-              className="border-2 border-gray-300"
+              className="w-full h-90 object-cover rounded mb-2 border-2 border-gray-300"
             />
+            <h2 className="text-center text-sm font-semibold line-clamp-2">
+              {movie.title}
+            </h2>
           </div>
         ))}
     </div>
