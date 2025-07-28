@@ -26,34 +26,34 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center md:justify-between items-center mt-6 gap-4">
           <div className="flex gap-4">
             <img
-              src="/src/assets/social/facebook-white.svg"
+              src="/assets/social/facebook-white.svg"
               alt="Facebook"
               className="h-6"
             />
             <img
-              src="/src/assets/social/twitter-white.svg"
+              src="/assets/social/twitter-white.svg"
               alt="Twitter"
               className="h-6"
             />
             <img
-              src="/src/assets/social/instagram-white.svg"
+              src="/assets/social/instagram-white.svg"
               alt="Instagram"
               className="h-6"
             />
           </div>
           <div className="flex gap-4">
             <img
-              src="/src/assets/store/app-store.svg"
+              src="/assets/store/app-store.svg"
               alt="App Store"
               className="h-10"
             />
             <img
-              src="/src/assets/store/play-store.svg"
+              src="/assets/store/play-store.svg"
               alt="Google Play"
               className="h-10"
             />
             <img
-              src="/src/assets/store/windows-store.svg"
+              src="/assets/store/windows-store.svg"
               alt="Windows Store"
               className="h-10"
             />
