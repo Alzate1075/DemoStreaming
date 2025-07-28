@@ -16,10 +16,10 @@ const cardsData = [
 
 export default function CardsHome() {
   return (
-    <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 place-items-center px-4">
+    <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-15 py-10 px-4">
       {cardsData.map((card, index) => (
-        <Link to={card.path} key={index} className="text-center">
-          <div className="w-[300px] md:w-[400px] xl:w-[500px] bg-black text-white font-bold py-4">
+        <Link to={card.path} key={index} className="text-center mb-8 lg:mb-0">
+          <div className="w-[280px] sm:w-[300px] md:w-[400px] xl:w-[500px] bg-black text-white font-bold py-4">
             <img
               src={card.image}
               alt={card.title}

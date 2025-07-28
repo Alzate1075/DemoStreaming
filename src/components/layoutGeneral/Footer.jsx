@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-800 text-white py-6 w-full">
       <div className="max-w-screen-xl mx-auto px-4 md:px-10 text-center">
         <div className="flex flex-wrap justify-center md:justify-between items-center border-b border-gray-600 pb-4 gap-2">
-          <div className="flex gap-2 flex-wrap justify-center md:justify-start text-sm">
+          <div className="cursor-pointer flex gap-2 flex-wrap justify-center md:justify-start text-sm">
             <span>Home</span>
             <p>|</p>
             <span>Terms and Conditions</span>
