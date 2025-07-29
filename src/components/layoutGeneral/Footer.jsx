@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -6,7 +7,12 @@ export default function Footer() {
       <div className="max-w-screen-xl mx-auto px-4 md:px-10 text-center">
         <div className="flex flex-wrap justify-center md:justify-between items-center border-b border-gray-600 pb-4 gap-2">
           <div className="cursor-pointer flex gap-2 flex-wrap justify-center md:justify-start text-sm">
-            <span>Home</span>
+            <Link
+              to="/"
+              className="hover:scale-105 transition-transform duration-300"
+            >
+              <span>Home</span>
+            </Link>
             <p>|</p>
             <span>Terms and Conditions</span>
             <p>|</p>
