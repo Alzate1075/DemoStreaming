@@ -47,7 +47,7 @@ export default function Footer() {
               className="h-6"
             />
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-4">
             <img
               src="/assets/store/app-store.svg"
               alt="App Store"
