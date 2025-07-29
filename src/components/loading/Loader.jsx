@@ -3,8 +3,8 @@ import "./Loader.css";
 
 export default function Loader() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-black">
-      <div className="loader text-white"></div>
+    <div className="flex justify-center items-center w-full min-h-screen">
+      <div className="loader text-black"></div>
     </div>
   );
 }
